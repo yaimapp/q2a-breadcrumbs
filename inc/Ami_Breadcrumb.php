@@ -266,12 +266,12 @@
          */
         public function truncate( $str, $len, $append = '...' )
         {
-            $truncated = substr( $str, 0, $len );
+            $truncated = mb_substr( $str, 0, $len, 'UTF-8');
 
-            $last_space = strrpos( $truncated, ' ' );
+            $last_space = mb_strrpos( $truncated, ' ', 'UTF-8' );
 
             if ( $last_space !== false && $str != $truncated ) {
-                $truncated = substr( $truncated, 0, $last_space );
+                $truncated = mb_substr( $truncated, 0, $last_space, 'UTF-8' );
             }
 
             if ( $truncated != $str ) {
