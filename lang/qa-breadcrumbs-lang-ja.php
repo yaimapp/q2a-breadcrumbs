@@ -61,7 +61,7 @@
         "blocked"                     => "ブロックユーザー",
         "activity"                    => "最近の記事",
         "settings_saved"              => "パンくずの設定を保存しました",
-        "dont_use_link_for_last_elem" => "最後の要素にはリンクをつけない(たいていセルフリンク)",
+        "dont_use_link_for_last_elem" => "最後の要素にはリンクをつけない",
         "searching_for"               => "検索 : ",
         "all_my_updates"              => "すべての更新",
         "my_favorites"                => "フォロー",
